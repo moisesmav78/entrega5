@@ -1,0 +1,6 @@
+/* style.css */
+
+.sticker-container img {
+    max-width: 200px; /* Ancho máximo para las imágenes */
+    height: auto;
+}

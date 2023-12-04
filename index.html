@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Stickers</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Seleccione sus stickers</h1>
+
+    <div class="sticker-container">
+        <img src="assets/css/img1/Diablo.jpg" alt="Sticker 1">
+        <br>
+        <input type="number" id="sticker1" value="0" min="0" max="10">
+        
+    </div>
+
+    <div class="sticker-container">
+        <img src="assets/css/img1/Diablo4.jpg" alt="Sticker 2">
+        <br>
+        <input type="number" id="sticker2" value="0" min="0" max="10">
+    </div>
+
+    <div class="sticker-container">
+        <img src="assets/css/img1/Lilit.jpg" alt="Sticker 3">
+        <br>
+        <input type="number" id="sticker3" value="0" min="0" max="10">
+    </div>
+
+   <br>
+   <button onclick="verificarPedido()">Realizar Pedido</button>
+   <p id="resultado"></p>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
